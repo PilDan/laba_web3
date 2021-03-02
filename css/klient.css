@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li{display: block;
+    margin: auto;
+    margin-left: inherit;
+}
+
+.container {
+    width: 1170px;
+margin: 0 auto;
+}
+.header{
+    background: #1c1c1c;
+}
+.verh{
+    display: flex;
+}
+
+.logo2{
+    padding: 7px 0px 7px 35px;
+}
+.verh li a{
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 46px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+
+.lk{
+    margin-left: auto   ;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+.nav,.center{
+    display: flex;
+}
+section{
+    width: 1520px;
+    height: 1800px;
+    background:linear-gradient(180deg, #2E2E2E 0%, rgba(24, 18, 18, 0.09) 100%);
+    mix-blend-mode: normal;
+}
+
+.fon{
+    width: 1075px;
+    height: 1700px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0.65) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 30px;
+    margin: 40px 0px 0px 211px;
+}
+
+.client {
+    padding-top: 50px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.table th {
+    border-bottom: 2px solid #fff;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.t{
+    font-size: 24px;
+}

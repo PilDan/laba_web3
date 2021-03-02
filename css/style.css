@@ -1,0 +1,237 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Roboto";
+	outline: none;
+	border: none;
+}
+
+html, body {
+	height: 100%;
+	background: #0A0A0A;
+}
+
+.align {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 8px;
+}
+
+.logo {
+	width: 120px;
+}
+
+.card {
+	margin-top: 28px;
+	height: 100%;
+	max-height: 446px;
+	width: 396px;
+	background: #121212;
+	border: 1px solid #373737;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: max-height 0.2s;
+}
+
+.extend {
+	max-height: 480px;
+}
+
+.head {
+	width: 100%;
+	display: flex;
+	height: 72px;
+	border-bottom: 1px solid #373737;
+	justify-content: space-between;
+}
+
+.head a {
+	height: 100%;
+	padding: 0 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: orange;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.head .selected {
+	position: relative;
+	color: orange;
+	font-weight: 700;
+}
+
+.head .selected:after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	height: 5px;
+	width: 100%;
+	background: orange;
+	border-radius: 99px 99px 0 0;
+}
+
+.tabs {
+	height: calc(100% - 72px);
+	display: flex;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+	padding: 44px 38px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	right: 0;
+	transition: right 0.2s;
+}
+
+.extend form {
+	right: 100%;
+}
+
+.inputs {
+	width: 100%;
+	padding-top: 6px;
+}
+
+.input {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.input input {
+	width: 100%;
+	font-size: 17px;
+	background: white;
+	border-radius: 8px;
+	padding: 16px 18px 16px 51px;
+	color: rgb(220,220,220);
+}
+
+.input img {
+	width: 16px;
+	position: absolute;
+	left: 19px;
+}
+
+.checkbox {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.checkbox input {
+	position: absolute;
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+.checkbox span {
+	display: flex;
+	align-items: center;
+	color: rgb(110,110,110);
+	font-size: 16px;
+	user-select: none;
+}
+
+.checkbox span:before {
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 6px;
+	margin-right: 16px;
+	background-color: orange;
+}
+
+.checkbox:hover input ~ span:before {
+	background-color: orange;
+}
+
+.checkbox input:checked ~ span:before {
+	background-image: url(../img/checked.png);
+	background-size: cover;
+}
+
+.card button {
+	display: block;
+	background: orange;
+	padding: 14px 52px;
+	border-radius: 12px;
+	color: #003B15;
+	font-weight: 700;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+.calculate-form {
+    width: 460px;
+    height: 100px;
+    padding: 0px 60px 40px 60px;
+}
+input.numbers{
+	height: 42px;
+    width: 120px;
+    float: left;
+    display: inline-block;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border: 1px solid #2d598066;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+select.operations{
+    width: 66px;
+    height: 64px;
+    float: left;
+    margin: 20px 5px;
+    padding:5px 0 0 10px;
+    background-color: #1ca7a2;
+    border: 1px solid #1ca7a2;
+    font-size: 36px;
+    color: #fff;
+}
+input.submit_form {
+	height: 62px;
+    width: 400px;
+    display: inline-block;
+    padding-top: 5px;
+    background-color: #f7994f;
+    border: 1px solid #f6994f;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px 5px rgb(247, 136, 48) inset;
+}
+div.answer-text, div.error-text{
+	margin-top: 50px;
+	padding-left: 65px;
+    font-size: 28px;
+}
+div.answer-text{
+	color: #2e2e2f;
+}
+div.error-text{
+	color:red;
+}

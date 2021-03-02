@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li{display: block;
+    margin: auto;
+    margin-left: inherit;
+}
+
+.container {
+    width: 1170px;
+margin: 0 auto;
+}
+.header{
+    background: #1c1c1c;
+}
+.verh{
+    display: flex;
+}
+
+.logo2{
+    padding: 7px 0px 7px 35px;
+}
+.verh li a{
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 46px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+
+.lk{
+    margin-left: auto   ;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+.nav,.center{
+    display: flex;
+}
+
+section{
+    width: 1520px;
+    height: 1800px;
+    background:linear-gradient(180deg, #2E2E2E 0%, rgba(24, 18, 18, 0.09) 100%);
+    mix-blend-mode: normal;
+}
+
+.raby{display: flex;}
+
+.bibl{
+    width: 270px;
+    height: 380px;
+    left: 715px;
+    top: 945px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0.65) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.bibl1{
+    margin: 150px 0px 0px 415px;
+}
+ 
+.bibl2{
+    margin: 150px 0px 0px 150px;
+}
+
+
+.ol{
+    width: 180px;
+    margin: 30px 0px 0px 45px;
+}
+.dn{
+    width: 180px;
+    margin: 30px 0px 0px 45px;
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px 0px 0px 10px;
+}

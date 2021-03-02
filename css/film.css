@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li{display: block;
+    margin: auto;
+    margin-left: inherit;
+}
+
+.container {
+    width: 1170px;
+margin: 0 auto;
+}
+.header{
+    background: #1c1c1c;
+}
+.verh{
+    display: flex;
+}
+
+.logo2{
+    padding: 7px 0px 7px 35px;
+}
+.verh li a{
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 46px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+
+.lk{
+    margin-left: auto   ;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+  
+}
+.nav,.center{
+    display: flex;
+}
+
+section{
+    width: 1519px;
+    height: 1800px;
+    background:linear-gradient(180deg, #2E2E2E 0%, rgba(24, 18, 18, 0.09) 100%);
+    mix-blend-mode: normal;
+
+}
+.tut{display: flex;}
+.luch{padding:50px 0px 0px 500px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+    margin-left: -5px;
+    font-size: 27px;
+    margin-top: 0px;
+}
+.vse{padding:250px 0px 0px 550px;
+    color: #FFF;
+    font-style: "Comfortaa";
+    letter-spacing: 0.07em;
+    font-size: 27px;
+}
+.kino{
+    padding: 100px 0px 0px 200px;
+}
+.kino1{
+    padding: 100px 0px 0px 143px;
+}
+.text1{ margin-left: -15px;}
+.text2{ margin-left: 14px;}
+.text3{ margin-left: 2px;}
+.text4{ margin-left: -25px;}
+.img{
+    margin: 0px 0px 0px 10px;
+}
